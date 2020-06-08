@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>jomccal_mdm1</Database>
+    <Server>stwssbsql01.ad.okstate.edu</Server>
+    <ConnectionString>Data Source=stwssbsql01.ad.okstate.edu;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>Hs/S3foc4uLw9owp5HyyfgzvUlc=9/30/2018 2:24:48 PM9/30/2018 2:24:48 PM</TimeStamp>
+        <ID>
+          <String>Adventure Works DW2012</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>pVHhnazVfoSRaXozpDfjvgNCQDI=10/7/2018 3:46:12 PM9/30/2018 2:24:48 PM</TimeStamp>
+        <ID>
+          <String>Adventure Works DW2012</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>4rbWwk9grlIr3dhDdWMl+OSFY9s=10/7/2018 6:06:35 PM9/30/2018 2:24:48 PM</TimeStamp>
+        <ID>
+          <String>Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>SeLKt64zmAJ9122vm/uEybtwqXU=10/7/2018 6:12:31 PM9/30/2018 2:32:20 PM</TimeStamp>
+        <ID>
+          <String>Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>3grgMn7E4L2uGGrFr51KUqNvHGE=10/7/2018 6:16:08 PM10/7/2018 3:51:13 PM</TimeStamp>
+        <ID>
+          <String>Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>u+5Gt4DnEioZEtLp1qIQ/+in92c=10/7/2018 5:58:00 PM9/30/2018 2:32:20 PMSs/5q8I/qtB7SlrnJ6xv5KPlSa0=10/7/2018 4:36:56 PM9/30/2018 2:24:50 PM</TimeStamp>
+        <ID>
+          <String>SimpleCustomerDate</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>76iq3og5oyPA/Oex//Yvq7jXP3k=9/30/2018 2:24:48 PM9/30/2018 2:24:48 PM</TimeStamp>
+        <ID>
+          <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>I1oBecWa9KmOozCCXagrPljIDtY=9/30/2018 2:24:50 PM9/30/2018 2:24:50 PM</TimeStamp>
+      <ID>
+        <String>jomccal_mdm1</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2018-10-07T23:17:52.15Z</LastDeployed>
+</DeploymentSnapshot>
